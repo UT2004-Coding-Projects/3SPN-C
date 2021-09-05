@@ -90,6 +90,7 @@ var config int  FlakAmmo;
 var config int  RocketAmmo;
 var config int  LightningAmmo;
 var config int  ClassicSniperAmmo;
+var config bool bNoClassicSniper;
 /* weapon related */
 
 /* extended functionality */
@@ -362,6 +363,7 @@ static function FillPlayInfo(PlayInfo PI)
     PI.AddSetting("3SPN", "RocketAmmo", "Rocket Ammunition", 0, Weight++, "Text", "3;0:999",, True);
     PI.AddSetting("3SPN", "LightningAmmo", "Lightning Ammunition", 0, Weight++, "Text", "3;0:999",, True);
     PI.AddSetting("3SPN", "ClassicSniperAmmo", "ClassicSniper Ammunition", 0, Weight++, "Text", "3;0:999",, True);
+    PI.AddSetting("3SPN", "bNoClassicSniper", "Force no Classic Sniper", 0, Weight++, "Check");
 
     PI.AddSetting("3SPN", "EnableNewNet", "Enable New Net", 0, Weight++, "Check");
     PI.AddSetting("3SPN", "bDamageIndicator", "Enable Damage Indicator", 0, 401, "Check");  
@@ -442,6 +444,7 @@ static event string GetDescriptionText(string PropName)
       case "RocketAmmo":          return "Amount of Rocket Ammunition to give in a round.";
       case "LightningAmmo":       return "Amount of Lightning Ammunition to give in a round.";
       case "ClassicSniperAmmo":       return "Amount of ClassicSniper Ammunition to give in a round.";
+      case "bNoClassicSniper":      return "Force disables the Classic Sniper.";
 	  
       case "EnableNewNet":                  return "Make enhanced netcode available for players.";
       case "bDamageIndicator":    return "Enable or Disable the Damage Indicators for players";
@@ -587,6 +590,10 @@ function ParseOptions(string Options)
     InOpt = ParseOption(Options, "ClassicSniperAmmo");
     if(InOpt != "")
         ClassicSniperAmmo = int(InOpt);		
+
+    InOpt = ParseOption(Options, "bNoClassicSniper");
+    if(InOpt != "")
+        bNoClassicSniper = bool(InOpt);	
 		
     InOpt = ParseOption(Options, "LightningAmmo");
     if(InOpt != "")
@@ -650,6 +657,15 @@ event InitGame(string Options, out string Error)
         class'WeaponFire_Shield'.default.SelfForceScale= ShieldGunSelfForceScale;
         class'WeaponFire_Shield'.default.SelfDamageScale = ShieldGunSelfDamageScale;
         class'WeaponFire_Shield'.default.MinSelfDamage = ShieldGunMinSelfDamage;
+    }
+
+    if(bNoClassicSniper)
+    {
+        class'Team_GameBase'.default.bNoClassicSniper = True;
+    }
+    else
+    {
+        class'Team_GameBase'.default.bNoClassicSniper = False;
     }
 
     /* combo related */
@@ -3932,6 +3948,7 @@ defaultproperties
      RocketAmmo=12
      LightningAmmo=15
 	 ClassicSniperAmmo=10
+     bNoClassicSniper=False
      EndOfRoundDelay=2
      EndOfRoundTime=10
      RoundCanTie=True
