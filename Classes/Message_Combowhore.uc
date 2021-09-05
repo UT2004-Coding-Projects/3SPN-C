@@ -36,7 +36,7 @@ static simulated function ClientReceive(
 
 defaultproperties
 {
-     CombowhoreSound=Sound'3SPNCv42102.Sounds.Combowhore'
+     CombowhoreSound=Sound'3SPNCv42109.Sounds.Combowhore'
      YouAreCombowhore="C O M B O  W H O R E"
      PlayerIsCombowhore="IS   A   C O M B O  W H O R E"
      bIsUnique=True

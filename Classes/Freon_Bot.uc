@@ -58,5 +58,5 @@ state Frozen extends Dead
 
 defaultproperties
 {
-     PlayerReplicationInfoClass=Class'3SPNCv42102.Freon_PRI'
+     PlayerReplicationInfoClass=Class'3SPNCv42109.Freon_PRI'
 }

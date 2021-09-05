@@ -61,5 +61,5 @@ defaultproperties
          WinWidth=0.600000
 		 OnChange=Menu_TabSniper.InternalOnChange
      End Object
-     SniperSelect=moComboBox'3SPNCv42102.Menu_TabSniper.ComboSniperType'
+     SniperSelect=moComboBox'3SPNCv42109.Menu_TabSniper.ComboSniperType'
 }

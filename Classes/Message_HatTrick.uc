@@ -27,7 +27,7 @@ static simulated function ClientReceive (PlayerController P, optional int Switch
 
 defaultproperties
 {
-//     hattricksound=Sound'3SPNCv42102.Sounds.HatTrick'
+//     hattricksound=Sound'3SPNCv42109.Sounds.HatTrick'
      HatTrickString=""
      bIsUnique=True
      bFadeMessage=True
