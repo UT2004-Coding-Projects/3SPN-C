@@ -12,7 +12,7 @@ defaultproperties
      DamageMax=70
      FireRate=1.600000
      HeadShotDamageMult=2.000000
-     DamageTypeHeadShot=Class'3SPNCv42102.DamType_ClassicHeadshot'
+     DamageTypeHeadShot=Class'3SPNCv42109.DamType_ClassicHeadshot'
      DamageType=Class'UTClassic.DamTypeClassicSniper'
      FireSound=Sound'ClassicSniper'
 }

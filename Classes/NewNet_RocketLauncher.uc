@@ -458,6 +458,6 @@ function UnTimeTravel()
 
 defaultproperties
 {
-     FireModeClass(0)=Class'3SPNCv42102.NewNet_RocketFire'
-     FireModeClass(1)=Class'3SPNCv42102.NewNet_RocketMultiFire'
+     FireModeClass(0)=Class'3SPNCv42109.NewNet_RocketFire'
+     FireModeClass(1)=Class'3SPNCv42109.NewNet_RocketMultiFire'
 }

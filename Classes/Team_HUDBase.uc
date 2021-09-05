@@ -1486,8 +1486,8 @@ simulated function DrawDamageIndicators(Canvas C)
 defaultproperties
 {
      TeamTex=Texture'HUDContent.Generic.HUD'
-     Hudzaxis=Texture'3SPNCv42102.textures.Hudzaxis'
-     TrackedPlayer=Texture'3SPNCv42102.textures.chair'
+     Hudzaxis=Texture'3SPNCv42109.textures.Hudzaxis'
+     TrackedPlayer=Texture'3SPNCv42109.textures.chair'
      FullHealthColor=(B=200,G=100,A=255)
      NameColor=(B=200,G=200,R=200,A=255)
      LocationColor=(G=130,R=175,A=255)
