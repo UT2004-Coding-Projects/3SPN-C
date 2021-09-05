@@ -104,6 +104,6 @@ function AwardAdrenaline(float amount)
 
 defaultproperties
 {
-     PlayerReplicationInfoClass=Class'3SPNCv42102.Misc_PRI'
+     PlayerReplicationInfoClass=Class'3SPNCv42109.Misc_PRI'
      Adrenaline=0.100000
 }

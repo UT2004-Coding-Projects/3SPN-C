@@ -20,7 +20,7 @@ defaultproperties
      MaxDesireability=1.000000
      RespawnTime=33.000000
      PickupForce="HealthPack"
-     StaticMesh=StaticMesh'3SPNCv42102.Question'
+     StaticMesh=StaticMesh'3SPNCv42109.Question'
      CullDistance=6500.000000
      DrawScale=1.000000
      TransientSoundVolume=0.350000

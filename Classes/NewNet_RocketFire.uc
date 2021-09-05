@@ -316,5 +316,5 @@ function DoFireEffect()
 
 defaultproperties
 {
-     FakeProjectileClass=Class'3SPNCv42102.NewNet_Fake_RocketProj'
+     FakeProjectileClass=Class'3SPNCv42109.NewNet_Fake_RocketProj'
 }
