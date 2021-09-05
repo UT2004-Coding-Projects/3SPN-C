@@ -40,7 +40,7 @@ defaultproperties
          bNeverFocus=True
          OnPreDraw=SectionBackgObj.InternalPreDraw
      End Object
-     SectionBackg=AltSectionBackground'3SPNCv42102.Menu_TabInfo.SectionBackgObj'
+     SectionBackg=AltSectionBackground'3SPNCv42109.Menu_TabInfo.SectionBackgObj'
 
      Begin Object Class=GUIScrollTextBox Name=TextBoxObj
          bNoTeletype=True
@@ -55,7 +55,7 @@ defaultproperties
          bScaleToParent=True
          bNeverFocus=True
      End Object
-     TextBox=GUIScrollTextBox'3SPNCv42102.Menu_TabInfo.TextBoxObj'
+     TextBox=GUIScrollTextBox'3SPNCv42109.Menu_TabInfo.TextBoxObj'
 
      InfoText(0)="Greetings!"
      InfoText(1)="======="
@@ -68,15 +68,15 @@ defaultproperties
      InfoText(8)="þ"
      InfoText(61)="Send bug reports and feedback / Suggestions to Hv#7982 on Discord"
      InfoText(69)="þ"
-     InfoText(70)="Special Thanks & CREDITS go to:"
+     InfoText(70)="Long list of Contributors!:"
      InfoText(71)="  * Aaron Everitt and Joel Moffatt for UTComp."
      InfoText(72)="  * Michael Massey, Eric Chavez, Mike Hillard, Len Bradley and Steven Phillips for 3SPN."
-     InfoText(73)="  * Shaun Goeppinger for Necro."
+     InfoText(73)="  * Shaun Goeppinger for Necro. NakedApe for UnPuase"
      InfoText(74)="  * void at www.combowhore.com for many many enhancements to 3SPN."
      InfoText(75)="  * Beltamaxx for his great ideas, inspiration and encouragement."
      InfoText(76)="  * SoL�Lizard for 3SPN changes and support."
      InfoText(77)="  * Attila, Horst & InhumanAimz for their work on 3SPN "
-     InfoText(78)="  * Hv, Viking, f00l, Mythic, Nolja for their help with 3SPN RU "
+     InfoText(78)="  * Hv, Viking, Alora f00l, Mythic, Nolja for their help with 3SPN RU "
      InfoText(79)="  * The RU Community for their testing, patience, and feedback."
      InfoText(80)="All without whom this mutator and its adjustments would not be possible!"
 }

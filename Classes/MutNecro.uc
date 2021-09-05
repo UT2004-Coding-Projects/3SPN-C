@@ -25,7 +25,7 @@ function string RecommendCombo(string ComboName)
     
         if ( FRand() < 0.41 )
         {
-            ComboName = "3SPNCv42102.NecroCombo";
+            ComboName = "3SPNCv42109.NecroCombo";
 		}
         else
         {
@@ -63,7 +63,7 @@ function Timer()
 	{
 		if ( NotifyPlayer[i] != None )
 		{
-			NotifyPlayer[i].ClientReceiveCombo("3SPNCv42102.NecroCombo");
+			NotifyPlayer[i].ClientReceiveCombo("3SPNCv42109.NecroCombo");
 			NotifyPlayer[i] = None;
 		}
 	}
@@ -77,13 +77,13 @@ function bool IsRelevant(Actor Other, out byte bSuperRelevant)
 	{
 		for ( i=0; i<16; i++ )
 		{
-			if ( xPlayer(Other).ComboNameList[i] ~= "3SPNCv42102.NecroCombo" )
+			if ( xPlayer(Other).ComboNameList[i] ~= "3SPNCv42109.NecroCombo" )
 			{
 				break;
 			}
 			else if ( xPlayer(Other).ComboNameList[i] == "" )
 			{
-				xPlayer(Other).ComboNameList[i] = "3SPNCv42102.NecroCombo";
+				xPlayer(Other).ComboNameList[i] = "3SPNCv42109.NecroCombo";
 				break;
 			}
 		}
@@ -155,7 +155,7 @@ defaultproperties
      PropsDisplayText(1)="Show How To Haircut Message"
      PropsDescText(0)="Should bots use the necro Haircut? (true by default)"
      PropsDescText(1)="Show the (To cut a teammates hair press B,B,F,F with 100 adren) spawn message? (True by default)."
-     NecroComboClass=Class'3SPNCv42102.NecroCombo'
+     NecroComboClass=Class'3SPNCv42109.NecroCombo'
      bAddToServerPackages=True
      GroupName="Combo Necromancy"
      FriendlyName="Horstomancy V_1"

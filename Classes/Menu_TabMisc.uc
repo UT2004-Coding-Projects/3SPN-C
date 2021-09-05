@@ -159,7 +159,7 @@ defaultproperties
          WinHeight=1.000000
          bNeverFocus=True
      End Object
-     Controls(0)=GUIImage'3SPNCv42102.Menu_TabMisc.TabBackground'
+     Controls(0)=GUIImage'3SPNCv42109.Menu_TabMisc.TabBackground'
 
      Begin Object Class=moCheckBox Name=SpeedCheck
          Caption="Disable Speed."
@@ -170,7 +170,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(1)=moCheckBox'3SPNCv42102.Menu_TabMisc.SpeedCheck'
+     Controls(1)=moCheckBox'3SPNCv42109.Menu_TabMisc.SpeedCheck'
 
      Begin Object Class=moCheckBox Name=BoosterCheck
          Caption="Disable Booster."
@@ -181,7 +181,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(2)=moCheckBox'3SPNCv42102.Menu_TabMisc.BoosterCheck'
+     Controls(2)=moCheckBox'3SPNCv42109.Menu_TabMisc.BoosterCheck'
 
      Begin Object Class=moCheckBox Name=BerserkCheck
          Caption="Disable Berserk."
@@ -192,7 +192,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(3)=moCheckBox'3SPNCv42102.Menu_TabMisc.BerserkCheck'
+     Controls(3)=moCheckBox'3SPNCv42109.Menu_TabMisc.BerserkCheck'
 
      Begin Object Class=moCheckBox Name=InvisCheck
          Caption="Disable Invisibility."
@@ -203,7 +203,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(4)=moCheckBox'3SPNCv42102.Menu_TabMisc.InvisCheck'
+     Controls(4)=moCheckBox'3SPNCv42109.Menu_TabMisc.InvisCheck'
 
      Begin Object Class=moCheckBox Name=MatchCheck
          Caption="Match HUD color to brightskins."
@@ -213,7 +213,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(5)=moCheckBox'3SPNCv42102.Menu_TabMisc.MatchCheck'
+     Controls(5)=moCheckBox'3SPNCv42109.Menu_TabMisc.MatchCheck'
 
      Begin Object Class=moCheckBox Name=TeamCheck
          Caption="Disable Team Info."
@@ -224,7 +224,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(6)=moCheckBox'3SPNCv42102.Menu_TabMisc.TeamCheck'
+     Controls(6)=moCheckBox'3SPNCv42109.Menu_TabMisc.TeamCheck'
 
      Begin Object Class=moCheckBox Name=ComboCheck
          Caption="Disable Combo List."
@@ -235,7 +235,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(7)=moCheckBox'3SPNCv42102.Menu_TabMisc.ComboCheck'
+     Controls(7)=moCheckBox'3SPNCv42109.Menu_TabMisc.ComboCheck'
 
      Begin Object Class=moCheckBox Name=HitsoundsCheck
          Caption="Disable Hitsounds."
@@ -246,7 +246,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(8)=moCheckBox'3SPNCv42102.Menu_TabMisc.HitsoundsCheck'
+     Controls(8)=moCheckBox'3SPNCv42109.Menu_TabMisc.HitsoundsCheck'
 
      Begin Object Class=GUISlider Name=HitVolumeSlider
          MaxValue=2.000000
@@ -260,7 +260,7 @@ defaultproperties
          OnKeyEvent=HitVolumeSlider.InternalOnKeyEvent
          OnCapturedMouseMove=HitVolumeSlider.InternalCapturedMouseMove
      End Object
-     Controls(9)=GUISlider'3SPNCv42102.Menu_TabMisc.HitVolumeSlider'
+     Controls(9)=GUISlider'3SPNCv42109.Menu_TabMisc.HitVolumeSlider'
 
      Begin Object Class=GUILabel Name=HitVolumeLabel
          Caption="Hitsound Volume:"
@@ -268,7 +268,7 @@ defaultproperties
          WinTop=0.730000
          WinLeft=0.100000
      End Object
-     Controls(10)=GUILabel'3SPNCv42102.Menu_TabMisc.HitVolumeLabel'
+     Controls(10)=GUILabel'3SPNCv42109.Menu_TabMisc.HitVolumeLabel'
 
      Begin Object Class=GUILabel Name=HitSoundsLabel
          Caption="Sounds:"
@@ -276,7 +276,7 @@ defaultproperties
          WinTop=0.600000
          WinLeft=0.050000
      End Object
-     Controls(11)=GUILabel'3SPNCv42102.Menu_TabMisc.HitSoundsLabel'
+     Controls(11)=GUILabel'3SPNCv42109.Menu_TabMisc.HitSoundsLabel'
 
      Begin Object Class=GUILabel Name=ComboLabel
          Caption="Combos:"
@@ -284,7 +284,7 @@ defaultproperties
          WinTop=0.145000
          WinLeft=0.050000
      End Object
-     Controls(12)=GUILabel'3SPNCv42102.Menu_TabMisc.ComboLabel'
+     Controls(12)=GUILabel'3SPNCv42109.Menu_TabMisc.ComboLabel'
 
      Begin Object Class=GUILabel Name=HUDLabel
          Caption="HUD:"
@@ -292,7 +292,7 @@ defaultproperties
          WinTop=0.370000
          WinLeft=0.050000
      End Object
-     Controls(13)=GUILabel'3SPNCv42102.Menu_TabMisc.HUDLabel'
+     Controls(13)=GUILabel'3SPNCv42109.Menu_TabMisc.HUDLabel'
 
      Begin Object Class=moCheckBox Name=ExtendCheck
          Caption="Extended Teammate info."
@@ -303,13 +303,13 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(14)=moCheckBox'3SPNCv42102.Menu_TabMisc.ExtendCheck'
+     Controls(14)=moCheckBox'3SPNCv42109.Menu_TabMisc.ExtendCheck'
 
      Begin Object Class=GUILabel Name=DummyObject
          TextColor=(B=255,G=255,R=255,A=0)
          bVisible=False
      End Object
-     Controls(15)=GUILabel'3SPNCv42102.Menu_TabMisc.DummyObject'
+     Controls(15)=GUILabel'3SPNCv42109.Menu_TabMisc.DummyObject'
 
      Begin Object Class=moCheckBox Name=StepsCheck
          Caption="Disable own footsteps."
@@ -319,7 +319,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(16)=moCheckBox'3SPNCv42102.Menu_TabMisc.StepsCheck'
+     Controls(16)=moCheckBox'3SPNCv42109.Menu_TabMisc.StepsCheck'
 
      Begin Object Class=moCheckBox Name=ShotCheck
          Caption="Take end-game screenshot."
@@ -329,7 +329,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(17)=moCheckBox'3SPNCv42102.Menu_TabMisc.ShotCheck'
+     Controls(17)=moCheckBox'3SPNCv42109.Menu_TabMisc.ShotCheck'
 
      Begin Object Class=GUISlider Name=AloneVolumeSlider
          MaxValue=2.000000
@@ -343,7 +343,7 @@ defaultproperties
          OnKeyEvent=AloneVolumeSlider.InternalOnKeyEvent
          OnCapturedMouseMove=AloneVolumeSlider.InternalCapturedMouseMove
      End Object
-     Controls(18)=GUISlider'3SPNCv42102.Menu_TabMisc.AloneVolumeSlider'
+     Controls(18)=GUISlider'3SPNCv42109.Menu_TabMisc.AloneVolumeSlider'
 
      Begin Object Class=GUILabel Name=AloneVolumeLabel
          Caption="Alone Volume:"
@@ -351,7 +351,7 @@ defaultproperties
          WinTop=0.775000
          WinLeft=0.100000
      End Object
-     Controls(19)=GUILabel'3SPNCv42102.Menu_TabMisc.AloneVolumeLabel'
+     Controls(19)=GUILabel'3SPNCv42109.Menu_TabMisc.AloneVolumeLabel'
 
      Begin Object Class=GUIButton Name=TimeoutButton
          Caption="Attempt Timeout"
@@ -363,7 +363,7 @@ defaultproperties
          OnClick=Menu_TabMisc.OnClick
          OnKeyEvent=TimeoutButton.InternalOnKeyEvent
      End Object
-     Controls(20)=GUIButton'3SPNCv42102.Menu_TabMisc.TimeoutButton'
+     Controls(20)=GUIButton'3SPNCv42109.Menu_TabMisc.TimeoutButton'
 
      Begin Object Class=moCheckBox Name=NewNetCheck
          Caption="Enable Enhanced NetCode."
@@ -373,7 +373,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(21)=moCheckBox'3SPNCv42102.Menu_TabMisc.NewNetCheck'
+     Controls(21)=moCheckBox'3SPNCv42109.Menu_TabMisc.NewNetCheck'
 
      Begin Object Class=moCheckBox Name=CeremonySoundsCheck
          Caption="Disable End Ceremony Sounds."
@@ -384,7 +384,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(22)=moCheckBox'3SPNCv42102.Menu_TabMisc.CeremonySoundsCheck'
+     Controls(22)=moCheckBox'3SPNCv42109.Menu_TabMisc.CeremonySoundsCheck'
 
      Begin Object Class=GUIButton Name=LoadSettingsButton
          Caption="Load Settings"
@@ -396,7 +396,7 @@ defaultproperties
          OnClick=Menu_TabMisc.OnClick
          OnKeyEvent=TimeoutButton.InternalOnKeyEvent
      End Object
-     Controls(23)=GUIButton'3SPNCv42102.Menu_TabMisc.LoadSettingsButton'
+     Controls(23)=GUIButton'3SPNCv42109.Menu_TabMisc.LoadSettingsButton'
 
      Begin Object Class=GUIButton Name=SaveSettingsButton
          Caption="Save Settings"
@@ -408,7 +408,7 @@ defaultproperties
          OnClick=Menu_TabMisc.OnClick
          OnKeyEvent=TimeoutButton.InternalOnKeyEvent
      End Object
-     Controls(24)=GUIButton'3SPNCv42102.Menu_TabMisc.SaveSettingsButton'
+     Controls(24)=GUIButton'3SPNCv42109.Menu_TabMisc.SaveSettingsButton'
 
      Begin Object Class=moCheckBox Name=SyncSettingsCheck
          Caption="Sync Settings With The Server Automatically."
@@ -419,6 +419,6 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabMisc.OnChange
      End Object
-     Controls(25)=moCheckBox'3SPNCv42102.Menu_TabMisc.SyncSettingsCheck'
+     Controls(25)=moCheckBox'3SPNCv42109.Menu_TabMisc.SyncSettingsCheck'
 
 }

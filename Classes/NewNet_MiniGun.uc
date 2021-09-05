@@ -116,6 +116,6 @@ function NewNet_ServerStartFire(byte Mode, float ClientTimeStamp)
 
 defaultproperties
 {
-     FireModeClass(0)=Class'3SPNCv42102.NewNet_MiniGunFire'
-     FireModeClass(1)=Class'3SPNCv42102.NewNet_MiniGunAltFire'
+     FireModeClass(0)=Class'3SPNCv42109.NewNet_MiniGunFire'
+     FireModeClass(1)=Class'3SPNCv42109.NewNet_MiniGunAltFire'
 }

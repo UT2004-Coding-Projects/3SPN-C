@@ -1093,5 +1093,5 @@ simulated event DrawScoreBoard(Canvas C)
 defaultproperties
 {
      Box=Texture'Engine.WhiteSquareTexture'
-     BaseTex=Texture'3SPNCv42102.textures.Scoreboard_old'
+     BaseTex=Texture'3SPNCv42109.textures.Scoreboard_old'
 }

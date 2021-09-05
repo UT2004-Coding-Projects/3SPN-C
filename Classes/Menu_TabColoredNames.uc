@@ -299,83 +299,83 @@ defaultproperties
 {
      Begin Object Class=GUILabel Name=Label0
      End Object
-     l_ColorNameLetters(0)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label0'
+     l_ColorNameLetters(0)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label0'
 
      Begin Object Class=GUILabel Name=Label1
      End Object
-     l_ColorNameLetters(1)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label1'
+     l_ColorNameLetters(1)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label1'
 
      Begin Object Class=GUILabel Name=Label2
      End Object
-     l_ColorNameLetters(2)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label2'
+     l_ColorNameLetters(2)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label2'
 
      Begin Object Class=GUILabel Name=Label3
      End Object
-     l_ColorNameLetters(3)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label3'
+     l_ColorNameLetters(3)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label3'
 
      Begin Object Class=GUILabel Name=Label4
      End Object
-     l_ColorNameLetters(4)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label4'
+     l_ColorNameLetters(4)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label4'
 
      Begin Object Class=GUILabel Name=Label5
      End Object
-     l_ColorNameLetters(5)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label5'
+     l_ColorNameLetters(5)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label5'
 
      Begin Object Class=GUILabel Name=Label6
      End Object
-     l_ColorNameLetters(6)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label6'
+     l_ColorNameLetters(6)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label6'
 
      Begin Object Class=GUILabel Name=Label7
      End Object
-     l_ColorNameLetters(7)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label7'
+     l_ColorNameLetters(7)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label7'
 
      Begin Object Class=GUILabel Name=Label8
      End Object
-     l_ColorNameLetters(8)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label8'
+     l_ColorNameLetters(8)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label8'
 
      Begin Object Class=GUILabel Name=Label9
      End Object
-     l_ColorNameLetters(9)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label9'
+     l_ColorNameLetters(9)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label9'
 
      Begin Object Class=GUILabel Name=Label10
      End Object
-     l_ColorNameLetters(10)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label10'
+     l_ColorNameLetters(10)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label10'
 
      Begin Object Class=GUILabel Name=Label11
      End Object
-     l_ColorNameLetters(11)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label11'
+     l_ColorNameLetters(11)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label11'
 
      Begin Object Class=GUILabel Name=Label12
      End Object
-     l_ColorNameLetters(12)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label12'
+     l_ColorNameLetters(12)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label12'
 
      Begin Object Class=GUILabel Name=Label13
      End Object
-     l_ColorNameLetters(13)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label13'
+     l_ColorNameLetters(13)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label13'
 
      Begin Object Class=GUILabel Name=Label14
      End Object
-     l_ColorNameLetters(14)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label14'
+     l_ColorNameLetters(14)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label14'
 
      Begin Object Class=GUILabel Name=Label15
      End Object
-     l_ColorNameLetters(15)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label15'
+     l_ColorNameLetters(15)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label15'
 
      Begin Object Class=GUILabel Name=Label16
      End Object
-     l_ColorNameLetters(16)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label16'
+     l_ColorNameLetters(16)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label16'
 
      Begin Object Class=GUILabel Name=Label17
      End Object
-     l_ColorNameLetters(17)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label17'
+     l_ColorNameLetters(17)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label17'
 
      Begin Object Class=GUILabel Name=Label18
      End Object
-     l_ColorNameLetters(18)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label18'
+     l_ColorNameLetters(18)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label18'
 
      Begin Object Class=GUILabel Name=Label19
      End Object
-     l_ColorNameLetters(19)=GUILabel'3SPNCv42102.Menu_TabColoredNames.Label19'
+     l_ColorNameLetters(19)=GUILabel'3SPNCv42109.Menu_TabColoredNames.Label19'
 
      Begin Object Class=moCheckBox Name=ColorChatCheck
          Caption="Show colored names in chat messages"
@@ -385,7 +385,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabColoredNames.InternalOnChange
      End Object
-     ch_ColorChat=moCheckBox'3SPNCv42102.Menu_TabColoredNames.ColorChatCheck'
+     ch_ColorChat=moCheckBox'3SPNCv42109.Menu_TabColoredNames.ColorChatCheck'
 
      Begin Object Class=moCheckBox Name=ColorScoreboardCheck
          Caption="Show colored names on scoreboard"
@@ -395,7 +395,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabColoredNames.InternalOnChange
      End Object
-     ch_ColorScoreboard=moCheckBox'3SPNCv42102.Menu_TabColoredNames.ColorScoreboardCheck'
+     ch_ColorScoreboard=moCheckBox'3SPNCv42109.Menu_TabColoredNames.ColorScoreboardCheck'
 
      Begin Object Class=moCheckBox Name=ColorHUDCheck
          Caption="Show colored names on HUD"
@@ -405,7 +405,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabColoredNames.InternalOnChange
      End Object
-     ch_ColorHUD=moCheckBox'3SPNCv42102.Menu_TabColoredNames.ColorHUDCheck'
+     ch_ColorHUD=moCheckBox'3SPNCv42109.Menu_TabColoredNames.ColorHUDCheck'
 
      Begin Object Class=moCheckBox Name=Colorq3Check
          Caption="Show colored text in chat messages(Q3 Style)"
@@ -415,7 +415,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabColoredNames.InternalOnChange
      End Object
-     ch_ColorQ3=moCheckBox'3SPNCv42102.Menu_TabColoredNames.Colorq3Check'
+     ch_ColorQ3=moCheckBox'3SPNCv42109.Menu_TabColoredNames.Colorq3Check'
 
      Begin Object Class=moCheckBox Name=EnemyNamesCheck
          Caption="Show colored enemy names on targeting"
@@ -425,7 +425,7 @@ defaultproperties
          WinWidth=0.800000
          OnChange=Menu_TabColoredNames.InternalOnChange
      End Object
-     ch_EnemyNames=moCheckBox'3SPNCv42102.Menu_TabColoredNames.EnemyNamesCheck'
+     ch_EnemyNames=moCheckBox'3SPNCv42109.Menu_TabColoredNames.EnemyNamesCheck'
 
      Begin Object Class=GUIComboBox Name=ComboSaved
          WinTop=0.600000
@@ -435,7 +435,7 @@ defaultproperties
          OnChange=Menu_TabColoredNames.InternalOnChange
          OnKeyEvent=ComboSaved.InternalOnKeyEvent
      End Object
-     co_SavedNames=GUIComboBox'3SPNCv42102.Menu_TabColoredNames.ComboSaved'
+     co_SavedNames=GUIComboBox'3SPNCv42109.Menu_TabColoredNames.ComboSaved'
 
      Begin Object Class=GUIButton Name=ButtonSave
          Caption="Save"
@@ -446,7 +446,7 @@ defaultproperties
          OnClick=Menu_TabColoredNames.InternalOnClick
          OnKeyEvent=ButtonSave.InternalOnKeyEvent
      End Object
-     bu_SaveName=GUIButton'3SPNCv42102.Menu_TabColoredNames.ButtonSave'
+     bu_SaveName=GUIButton'3SPNCv42109.Menu_TabColoredNames.ButtonSave'
 
      Begin Object Class=GUIButton Name=ButtonDelete
          Caption="Delete"
@@ -457,7 +457,7 @@ defaultproperties
          OnClick=Menu_TabColoredNames.InternalOnClick
          OnKeyEvent=ButtonDelete.InternalOnKeyEvent
      End Object
-     bu_DeleteName=GUIButton'3SPNCv42102.Menu_TabColoredNames.ButtonDelete'
+     bu_DeleteName=GUIButton'3SPNCv42109.Menu_TabColoredNames.ButtonDelete'
 
      Begin Object Class=GUIButton Name=ButtonWhite
          Caption="Reset Colors"
@@ -468,7 +468,7 @@ defaultproperties
          OnClick=Menu_TabColoredNames.InternalOnClick
          OnKeyEvent=ButtonWhite.InternalOnKeyEvent
      End Object
-     bu_ResetWhite=GUIButton'3SPNCv42102.Menu_TabColoredNames.ButtonWhite'
+     bu_ResetWhite=GUIButton'3SPNCv42109.Menu_TabColoredNames.ButtonWhite'
 
      Begin Object Class=GUIButton Name=ButtonApply
          Caption="Use This Name"
@@ -479,7 +479,7 @@ defaultproperties
          OnClick=Menu_TabColoredNames.InternalOnClick
          OnKeyEvent=ButtonApply.InternalOnKeyEvent
      End Object
-     bu_Apply=GUIButton'3SPNCv42102.Menu_TabColoredNames.ButtonApply'
+     bu_Apply=GUIButton'3SPNCv42109.Menu_TabColoredNames.ButtonApply'
 
      Begin Object Class=GUISlider Name=RedSlider
          MaxValue=255.000000
@@ -494,7 +494,7 @@ defaultproperties
          OnKeyEvent=RedSlider.InternalOnKeyEvent
          OnCapturedMouseMove=RedSlider.InternalCapturedMouseMove
      End Object
-     sl_RedColor=GUISlider'3SPNCv42102.Menu_TabColoredNames.RedSlider'
+     sl_RedColor=GUISlider'3SPNCv42109.Menu_TabColoredNames.RedSlider'
 
      Begin Object Class=GUISlider Name=BlueSlider
          MaxValue=255.000000
@@ -509,7 +509,7 @@ defaultproperties
          OnKeyEvent=BlueSlider.InternalOnKeyEvent
          OnCapturedMouseMove=BlueSlider.InternalCapturedMouseMove
      End Object
-     sl_BlueColor=GUISlider'3SPNCv42102.Menu_TabColoredNames.BlueSlider'
+     sl_BlueColor=GUISlider'3SPNCv42109.Menu_TabColoredNames.BlueSlider'
 
      Begin Object Class=GUISlider Name=GreenSlider
          MaxValue=255.000000
@@ -524,7 +524,7 @@ defaultproperties
          OnKeyEvent=GreenSlider.InternalOnKeyEvent
          OnCapturedMouseMove=GreenSlider.InternalCapturedMouseMove
      End Object
-     sl_GreenColor=GUISlider'3SPNCv42102.Menu_TabColoredNames.GreenSlider'
+     sl_GreenColor=GUISlider'3SPNCv42109.Menu_TabColoredNames.GreenSlider'
 
      Begin Object Class=GUILabel Name=RedLabel
          Caption="Red"
@@ -532,7 +532,7 @@ defaultproperties
          WinTop=0.590000
          WinLeft=0.500000
      End Object
-     l_RedLabel=GUILabel'3SPNCv42102.Menu_TabColoredNames.RedLabel'
+     l_RedLabel=GUILabel'3SPNCv42109.Menu_TabColoredNames.RedLabel'
 
      Begin Object Class=GUILabel Name=BlueLabel
          Caption="Blue"
@@ -540,7 +540,7 @@ defaultproperties
          WinTop=0.690000
          WinLeft=0.500000
      End Object
-     l_BlueLabel=GUILabel'3SPNCv42102.Menu_TabColoredNames.BlueLabel'
+     l_BlueLabel=GUILabel'3SPNCv42109.Menu_TabColoredNames.BlueLabel'
 
      Begin Object Class=GUILabel Name=GreenLabel
          Caption="Green"
@@ -548,7 +548,7 @@ defaultproperties
          WinTop=0.640000
          WinLeft=0.500000
      End Object
-     l_GreenLabel=GUILabel'3SPNCv42102.Menu_TabColoredNames.GreenLabel'
+     l_GreenLabel=GUILabel'3SPNCv42109.Menu_TabColoredNames.GreenLabel'
 
      Begin Object Class=GUISlider Name=LetterSlider
          Value=1.000000
@@ -561,7 +561,7 @@ defaultproperties
          OnKeyEvent=LetterSlider.InternalOnKeyEvent
          OnCapturedMouseMove=LetterSlider.InternalCapturedMouseMove
      End Object
-     sl_LetterSelect=GUISlider'3SPNCv42102.Menu_TabColoredNames.LetterSlider'
+     sl_LetterSelect=GUISlider'3SPNCv42109.Menu_TabColoredNames.LetterSlider'
 
      Begin Object Class=moComboBox Name=ColorDeathCombo
          Caption="Death Message Color:"
@@ -571,7 +571,7 @@ defaultproperties
          WinWidth=0.660000
          OnChange=Menu_TabColoredNames.InternalOnChange
      End Object
-     co_DeathSelect=moComboBox'3SPNCv42102.Menu_TabColoredNames.ColorDeathCombo'
+     co_DeathSelect=moComboBox'3SPNCv42109.Menu_TabColoredNames.ColorDeathCombo'
 
      Begin Object Class=GUILabel Name=SettingsLabel
          Caption="Only the active name can be saved on the server!"
@@ -581,6 +581,6 @@ defaultproperties
          WinLeft=0.100000
          WinWidth=0.800000
      End Object
-     l_SettingsLabel=GUILabel'3SPNCv42102.Menu_TabColoredNames.SettingsLabel'
+     l_SettingsLabel=GUILabel'3SPNCv42109.Menu_TabColoredNames.SettingsLabel'
 
 }

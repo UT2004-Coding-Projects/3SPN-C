@@ -58,7 +58,7 @@ class Message_FirstBlood extends LocalMessage;
 
 defaultproperties
 {
-//     firstblood=Sound'3SPNCv42102.Sounds.firstblood'
+//     firstblood=Sound'3SPNCv42109.Sounds.firstblood'
 //     YouHaveFirstBlood="! F I R S T  B L O O D !"
 //     HasFirstBlood="Has The First Blood"
 //     bIsUnique=True

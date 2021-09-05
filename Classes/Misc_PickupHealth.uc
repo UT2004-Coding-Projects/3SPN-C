@@ -10,7 +10,7 @@ defaultproperties
      PickupSound=Sound'PickupSounds.HealthPack'
      PickupForce="HealthPack"
      DrawType=DT_StaticMesh
-     StaticMesh=StaticMesh'3SPNCv42102.Question'
+     StaticMesh=StaticMesh'3SPNCv42109.Question'
      CullDistance=6500.000000
      Physics=PHYS_Rotating
      ScaleGlow=0.600000
