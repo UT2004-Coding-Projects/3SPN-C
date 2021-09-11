@@ -42,7 +42,7 @@ replication
 
 function CreateInventory(string InventoryClassName)
 {
-    if(Misc_PRI(PlayerReplicationInfo) != None && bWarmedUp == True)
+    if(Misc_PRI(PlayerReplicationInfo) != None && MyOwner.ActiveThisRound == True)
     {
         if(class'Team_GameBase'.default.bNoClassicSniper == True)
         {
