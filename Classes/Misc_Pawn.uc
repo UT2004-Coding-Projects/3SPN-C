@@ -59,7 +59,7 @@ function CreateInventory(string InventoryClassName)
             return;
     }
     // go up, and add weapon
-    if(Misc_PRI(PlayerReplicationInfo) != None)
+    if(MyOwner != None)
         Super.CreateInventory(InventoryClassName);
 }
 
