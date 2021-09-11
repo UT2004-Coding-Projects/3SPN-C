@@ -42,10 +42,15 @@ replication
 
 function CreateInventory(string InventoryClassName)
 {
-    if(Misc_PRI(PlayerReplicationInfo) != None)
+    if(Misc_PRI(PlayerReplicationInfo) != None && bWarmedUp == True)
     {
         if(class'Team_GameBase'.default.bNoClassicSniper == True)
+        {
             Misc_PRI(PlayerReplicationInfo).SniperType = 0;
+
+            if (InventoryClassName == "UTClassic.ClassicSniperRifle")
+                return;
+        }
         // player selects lightning, don't add classic sniper
         if(Misc_PRI(PlayerReplicationInfo).SniperType == 0 && InventoryClassName ~= "UTClassic.ClassicSniperRifle")
             return;
