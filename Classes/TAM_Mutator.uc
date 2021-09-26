@@ -569,7 +569,16 @@ function GiveWeapons(Pawn P)
     {
         if(WeaponClasses[i]==None || (WeaponInfo[i].Ammo[0]<=0 && WeaponInfo[i].Ammo[1]<=0))
             continue;
+
+		if (i == 9)
+			return;
 			
+		if(Misc_PRI(P.PlayerReplicationInfo).SniperType == 1 && i == 5)
+			continue;
+
+		if(Misc_PRI(P.PlayerReplicationInfo).SniperType == 0 && i == 9)
+			continue;
+
 		xP.GiveWeaponClass(WeaponClasses[i]);
     }
 }

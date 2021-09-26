@@ -42,6 +42,7 @@ replication
 
 function CreateInventory(string InventoryClassName)
 {
+
     if(Misc_PRI(PlayerReplicationInfo) != None)
     {
         if(class'Team_GameBase'.default.bNoClassicSniper == True)
@@ -59,8 +60,7 @@ function CreateInventory(string InventoryClassName)
             return;
     }
     // go up, and add weapon
-    if(MyOwner != None)
-        Super.CreateInventory(InventoryClassName);
+    Super.CreateInventory(InventoryClassName);
 }
 
 function SendAdrenReminder ()

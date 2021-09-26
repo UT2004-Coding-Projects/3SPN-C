@@ -1849,52 +1849,57 @@ function ClientLoadSettings(string PlayerName, Misc_PlayerSettings.BrightSkinsSe
 {
 	local int i;
 	
-	class'Misc_Player'.default.bUseBrightSkins = BrightSkins.bUseBrightSkins;
-	class'Misc_Player'.default.bUseTeamColors = BrightSkins.bUseTeamColors;
-	class'Misc_Player'.default.RedOrEnemy = BrightSkins.RedOrEnemy;
-	class'Misc_Player'.default.BlueOrAlly = BrightSkins.BlueOrAlly;
-	class'Misc_Player'.default.Yellow = BrightSkins.Yellow;
-	class'Misc_Player'.default.bUseTeamModels = BrightSkins.bUseTeamModels;
-	class'Misc_Player'.default.bForceRedEnemyModel = BrightSkins.bForceRedEnemyModel;
-	class'Misc_Player'.default.bForceBlueAllyModel = BrightSkins.bForceBlueAllyModel;
-	class'Misc_Player'.default.RedEnemyModel = BrightSkins.RedEnemyModel;
-	class'Misc_Player'.default.BlueAllyModel = BrightSkins.BlueAllyModel;
+	bUseBrightSkins = BrightSkins.bUseBrightSkins;
+	bUseTeamColors = BrightSkins.bUseTeamColors;
+	RedOrEnemy = BrightSkins.RedOrEnemy;
+	BlueOrAlly = BrightSkins.BlueOrAlly;
+	Yellow = BrightSkins.Yellow;
+	bUseTeamModels = BrightSkins.bUseTeamModels;
+	bForceRedEnemyModel = BrightSkins.bForceRedEnemyModel;
+	bForceBlueAllyModel = BrightSkins.bForceBlueAllyModel;
+	RedEnemyModel = BrightSkins.RedEnemyModel;
+	BlueAllyModel = BrightSkins.BlueAllyModel;
 
-	class'Misc_Player'.default.bAllowColoredMessages = ColoredNames.bAllowColoredMessages;
-	class'Misc_Player'.default.bEnableColoredNamesInTalk = ColoredNames.bEnableColoredNamesInTalk;
-	class'Misc_Player'.default.bEnableColoredNamesOnEnemies = ColoredNames.bEnableColoredNamesOnEnemies;
-	for(i=0; i<20; ++i)
-		class'Misc_Player'.default.ColorName[i] = ColoredNames.ColorName[i];
-	class'Misc_DeathMessage'.default.bEnableTeamColoredDeaths = ColoredNames.bEnableTeamColoredDeaths;
-	class'Misc_DeathMessage'.default.bDrawColoredNamesInDeathMessages = ColoredNames.bDrawColoredNamesInDeathMessages;
-	class'TAM_ScoreBoard'.default.bEnableColoredNamesOnHUD = ColoredNames.bEnableColoredNamesOnHUD;
-	class'TAM_ScoreBoard'.default.bEnableColoredNamesOnScoreboard = ColoredNames.bEnableColoredNamesOnScoreboard;
+	bAllowColoredMessages = ColoredNames.bAllowColoredMessages;
+	bEnableColoredNamesInTalk = ColoredNames.bEnableColoredNamesInTalk;
+	bEnableColoredNamesOnEnemies = ColoredNames.bEnableColoredNamesOnEnemies;
+	
+	bDisableSpeed = Misc.bDisableSpeed;
+	bDisableBooster = Misc.bDisableBooster;
+	bDisableBerserk = Misc.bDisableBerserk;
+	bDisableInvis = Misc.bDisableInvis;
+	bMatchHUDToSkins = Misc.bMatchHUDToSkins;
+	bShowTeamInfo = Misc.bShowTeamInfo;
+	bShowCombos = Misc.bShowCombos;
+	bExtendedInfo = Misc.bExtendedInfo;
+	bAutoScreenShot = Misc.bAutoScreenShot;
+	bUseHitSounds = Misc.bUseHitSounds;
+	bEnableEnhancedNetCode = Misc.bEnableEnhancedNetCode;
+	bDisableEndCeremonySound = Misc.bDisableEndCeremonySound;
+	SoundHitVolume = Misc.SoundHitVolume;
+	SoundAloneVolume = Misc.SoundAloneVolume;
+	AutoSyncSettings = Misc.AutoSyncSettings;
+    DamageIndicatorType = Misc.DamageIndicatorType;
+    SniperType = Misc.SniperType;
+
+
+    for(i=0; i<20; ++i)
+		ColorName[i] = ColoredNames.ColorName[i];
+
+    // none of this may be needed
 	class'Misc_Player'.default.ColoredName.Length = 1;
 	for(i=0; i<20; ++i)
 		class'Misc_Player'.default.ColoredName[0].SavedColor[i] = ColoredNames.ColorName[i];
 	class'Misc_Player'.default.ColoredName[0].SavedName = PlayerReplicationInfo.PlayerName;
-	class'Misc_Player'.default.CurrentSelectedColoredName = 0;
 	
-	class'Misc_Player'.default.bDisableSpeed = Misc.bDisableSpeed;
-	class'Misc_Player'.default.bDisableBooster = Misc.bDisableBooster;
-	class'Misc_Player'.default.bDisableBerserk = Misc.bDisableBerserk;
-	class'Misc_Player'.default.bDisableInvis = Misc.bDisableInvis;
-	class'Misc_Player'.default.bMatchHUDToSkins = Misc.bMatchHUDToSkins;
-	class'Misc_Player'.default.bShowTeamInfo = Misc.bShowTeamInfo;
-	class'Misc_Player'.default.bShowCombos = Misc.bShowCombos;
-	class'Misc_Player'.default.bExtendedInfo = Misc.bExtendedInfo;
-	class'Misc_Pawn'.default.bPlayOwnFootsteps = Misc.bPlayOwnFootsteps;
-	class'Misc_Player'.default.bAutoScreenShot = Misc.bAutoScreenShot;
-	class'Misc_Player'.default.bUseHitSounds = Misc.bUseHitSounds;
-	class'Misc_Player'.default.bEnableEnhancedNetCode = Misc.bEnableEnhancedNetCode;
-	class'Misc_Player'.default.bDisableEndCeremonySound = Misc.bDisableEndCeremonySound;
-	class'Misc_Player'.default.SoundHitVolume = Misc.SoundHitVolume;
-	class'Misc_Player'.default.SoundAloneVolume = Misc.SoundAloneVolume;
-	class'Misc_Player'.default.AutoSyncSettings = Misc.AutoSyncSettings;
-    class'Misc_Player'.default.DamageIndicatorType = Misc.DamageIndicatorType;
-    class'Misc_Player'.default.SniperType = Misc.SniperType;
-	
-	ReloadDefaults();
+	class'Misc_DeathMessage'.default.bEnableTeamColoredDeaths = ColoredNames.bEnableTeamColoredDeaths;
+	class'Misc_DeathMessage'.default.bDrawColoredNamesInDeathMessages = ColoredNames.bDrawColoredNamesInDeathMessages;
+	class'TAM_ScoreBoard'.default.bEnableColoredNamesOnHUD = ColoredNames.bEnableColoredNamesOnHUD;
+	class'TAM_ScoreBoard'.default.bEnableColoredNamesOnScoreboard = ColoredNames.bEnableColoredNamesOnScoreboard;
+    class'Misc_Pawn'.default.bPlayOwnFootsteps = Misc.bPlayOwnFootsteps;
+    // ^^^^^------
+
+	//ReloadDefaults();
 	SetupCombos();
 	SetColoredNameOldStyleCustom(,0);
 	class'Misc_Player'.static.StaticSaveConfig();

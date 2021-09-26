@@ -292,4 +292,5 @@ defaultproperties
 {
      StringDeadNoRez="Dead [Inactive]"
      PawnInfoClass=Class'3SPNCv42109.Misc_PawnReplicationInfo'
+     SniperType = 0
 }
